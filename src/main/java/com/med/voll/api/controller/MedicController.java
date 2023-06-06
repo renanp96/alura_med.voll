@@ -12,5 +12,6 @@ public class MedicController {
 
     @PostMapping
     public void submit( @RequestBody MedicDTO infos ){
+        System.out.println(infos);
     }
 }
